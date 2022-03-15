@@ -1,0 +1,26 @@
+ /*----------------------Seção de Tags---------------------*/
+
+body {
+    background-image:url(plano\ de\ fundo\ programação\ 2.jpg);
+    background-repeat: no-repeat;
+    /*background-position: 100% 10%;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(81, 81, 168);
+}
+h2 {
+    color: rgb(40, 109, 40);
+}
+h3 {
+    color: rgb(163, 67, 67);
+}
+
+
+/*----------------------Seção de Classes------------------*/
+.foto {
+    width: 20%;
+} 
+
+/*----------------------Seção de Id----------------------*/

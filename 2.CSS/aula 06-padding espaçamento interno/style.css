@@ -1,0 +1,18 @@
+/*----------------------Seção de Tags---------------------*/
+
+body {
+    background: rgba(240, 240, 169, 0.658);
+}
+
+
+
+/*----------------------Seção de Classes------------------*/
+.foto {
+    border: 5px double #221295; /*chamado de shorthand*/
+    border-radius: 50% 10% 70% 30%;
+    width: 200px;
+    margin: 5% 20% 10% 40%; 
+    padding: 15px; /*Enquanto o margin serve para o espaçamento externo o pading serve para espaçamento interno, também pode ser aplicado o shorthand. Nesta aula de padding segundo Thiago ele não deixaria o padding aplicado aqui, serveria para um outro projeto. Eu deixarei aplicado aqui*/
+} 
+
+/*----------------------Seção de Id----------------------*/

@@ -1,0 +1,53 @@
+/*----------------------Seção de Tags---------------------*/
+
+body {
+    background: rgba(240, 240, 169, 0.658);
+    font-family: 'Raleway', sans-serif; /*Quando se busca alguma fonte no site da google e quer usar no site inteiro se coloca diretamente no body do css, quando se quer usar a fonte para um titulo em específico, colocamos somente na tag desejada*/
+    
+}
+
+
+
+/*----------------------Seção de Classes------------------*/
+.container{
+    width: 900px;
+    margin: 0 auto
+}
+.profile{
+    text-align: center;
+}
+
+.foto {
+    border: 5px double black; /*chamado de shorthand*/
+    border-radius: 50% 10% 70% 30%;
+    width: 200px;
+    margin: 5% 80% 0% 40%; 
+    padding: 15px; 
+    box-shadow: 12px 12px 12px #6f6e70fc;/*Este código significa "sombra da caixa" e possui quatro parâmetros sempre na respectiva ordem DISTÂNCIA DA SOMBRA NA VERTICAL- DISTÂNCIA DA SOMBRA NA HORIZONTAL, DESFOQUE DA SOMBRA E A COR*/
+}
+.social-icons{
+    width: 30px;
+}
+.linkedin {
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(51, 50, 50);
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 0;
+    color: rgb(134, 133, 133);
+    font-style: italic;
+    letter-spacing: -1px; /*Comando usado para diminuir espaço entre uma letra e outra, quando se aumenta os px aumentasse os espaços entre as letras*/
+    font-weight: 200; /*Por padrão toda tag h1 a h6 vem em negrito, esse comando é usado para destacar menos esse negrito*/
+
+}
+    
+
+
+/*----------------------Seção de Id----------------------*/

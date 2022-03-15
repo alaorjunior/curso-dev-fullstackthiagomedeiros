@@ -1,0 +1,23 @@
+/*----------------------Seção de Tags---------------------*/
+
+body {
+    background: #dfdfdf;
+}
+p {
+    color: rgb(34, 34, 34)
+}
+
+
+
+/*----------------------Seção de Classes------------------*/
+.foto-principal{
+    border: 5px double black; /*chamado de shorthand*/
+    border-radius: 50% 30% 70% 10%;
+    /*No caso de border-radius: 50% 30% 50% 70% Podemos alterar lado por lado da borda*/
+    width: 200px; /* não esquecer desse atributo para dar altura exata a imagem*/
+    /*border-width: 5px;
+      border-style: solid;
+      border-color: black; Podemos escrever a classe dessas duas formas, lembrando sempre que existe uma sequencia para escrever esse código sendo primeiro o width, depois o style e depois o color, escrevendo tudo numa mesma linha ou separando em três linhas*/
+} 
+
+/*----------------------Seção de Id----------------------*/
